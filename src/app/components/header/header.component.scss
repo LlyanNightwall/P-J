@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "RingBearer";
+    src: url(../../../assets/ringbearer/RINGM___.TTF) format("truetype");
+}
+
+.mat-drawer-container{
+    height: 100%;
+    width: 100%;
+  }
+
+.mat-toolbar{
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-family: "RingBearer";
+    font-size: 150%;
+}
+
+mat-drawer{
+    padding: 5% 20%;
+}
+
+h3{
+    font-family: "RingBearer";
+}
