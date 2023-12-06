@@ -13,12 +13,15 @@ import { HeaderComponent } from './components/header/header.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {HttpClientModule} from '@angular/common/http';
+import { CreateCharacterComponent } from './components/create-character/create-character.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthentificationComponent,
-    HeaderComponent
+    HeaderComponent,
+    CreateCharacterComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatSidenavModule,
     MatToolbarModule,
     MatIconModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
